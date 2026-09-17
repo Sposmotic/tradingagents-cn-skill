@@ -1,0 +1,8 @@
+{
+  "name": "tradingagents-cn",
+  "version": "3.0.0",
+  "description": "Multi-agent stock analysis report generator (TradingAgents-CN). Six analyst subagents (fundamentals/news/social/technical/bull/bear) analyze in parallel via file exchange, then an Assembler + risk-debate (trader/risk-manager) composes a professional PDF report. Triggers on requests to analyze a stock, generate a stock report, or ask for buy/sell recommendations. Requires python3.",
+  "author": { "name": "tanteng" },
+  "license": "MIT",
+  "keywords": ["stock-analysis", "multi-agent", "trading", "equity-research", "pdf-report"]
+}

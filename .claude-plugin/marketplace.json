@@ -1,0 +1,15 @@
+{
+  "name": "tradingagents-cn-marketplace",
+  "owner": { "name": "wytian" },
+  "metadata": {
+    "description": "Local marketplace hosting the TradingAgents-CN skill (multi-agent stock analysis → PDF report, vendored from github.com/tanteng/tradingagents-cn-skill)."
+  },
+  "plugins": [
+    {
+      "name": "tradingagents-cn",
+      "displayName": "TradingAgents-CN",
+      "source": "./",
+      "description": "股票多智能体分析报告生成:6 个分析师 subagent 并行 + 文件交换 + Assembler 组装 + 风险辩论 → 专业 PDF 报告。触发:分析股票/生成股票报告/买卖建议。需 python3。"
+    }
+  ]
+}
